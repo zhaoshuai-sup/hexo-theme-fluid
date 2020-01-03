@@ -72,7 +72,7 @@ daovoice:  # 在线客服 Daovoice 参考：http://dashboard.daovoice.io
 # Header
 #---------------------------
 navbar:
-  blog_title:  # 导航栏左侧的标题，为空则按 hexo config.title 显示
+  blog_title: 以心代眼 # 导航栏左侧的标题，为空则按 hexo config.title 显示
   menu:  # 可自行增减，若想减去某个入口，可以将值留空，显示文本关联 languages
     home: /
     archive: /archives/
@@ -121,11 +121,11 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img: /img/default.png  # 首页 Banner 头图，以下相同
+  banner_img: /img/leng-shan-JUUkhXzi9Fc-unsplash.jpg  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   slogan:  # 首页副标题的独立设置
     enable: true  # 为 false 则不显示任何内容
-    text:  # 为空则按 hexo config.subtitle 显示
+    text: 你来的正好 # 为空则按 hexo config.subtitle 显示
   auto_excerpt:
     enable: true
   post_url_target: _self  # available: _blank | _self
@@ -133,7 +133,6 @@ index:
     date: true
     category: true
     tag: true
-
 
 #---------------------------
 # 文章页
